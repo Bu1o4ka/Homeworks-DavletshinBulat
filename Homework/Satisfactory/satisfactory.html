@@ -20,6 +20,13 @@
       font-family: sans-serif;
       accent-color: #fa9549;
     }
+    @font-face {
+      font-family: 'Satisfontory';
+      src: url('fonts/Satisfontory_v1.51.otf') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
     div{
       display: block;
     }
@@ -231,9 +238,14 @@
       color: #000;
       padding: 9,1px;
     }
+    #discussion-button{
+      color: #D87D41;
+      text-decoration: none;
+    }
     .content-list{
       border-radius: 24px;
       padding: 20px 24px 24px 24px;
+      margin-left: 5px;
       color: #e6e6e6;
       background-color: #141414;
       width: 1728px;
@@ -311,6 +323,9 @@
     }
     .fp-box{
       text-align: center;
+      margin: 5px;
+      margin-bottom: 15px;
+      border-radius: 20px 20px 5px 5px;
     }
     .welcome{
       font-size: 21px;
@@ -330,11 +345,15 @@
     }
     .fp-header-text{
       position: relative;
-      font-family: 'Satisfontory_v1.5';
+      font-family: 'Satisfontory', sans-serif;
       color: #f2f2f2;
       background: linear-gradient(bottom, #ADC8DD, #FEFFFE, #E2E9EF);
       background-clip: text;
       z-index: 2;
+    }
+    .welcome-text{
+      padding:0 5px 5px 5px;
+      background-color: #323232;
     }
   </style>
 </head>
@@ -475,6 +494,15 @@
                           Welcome to the official Satisfactory Wiki
                         </span>
                       </div>
+                    </div>
+                  <div class="welcome-text">
+                    <div>the <i>Satisfactory</i>  guide and information source written and maintained by the community.</div>
+                      <p>We are currently maintaining <a href="/wiki/Special:Statistics" title="Special:Statistics">9,468 pages (865 articles)</a>.</p>
+                      <p>Please feel free to contribute by creating new articles or expanding existing ones.</p>
+                      <p>Also check out the wiki in other languages:</p>
+                      <a href="https://satisfactory.wiki.gg/de/wiki/" class="extiw" title="de:">Deutsch</a> &nbsp;•&nbsp; <a href="https://satisfactory.wiki.gg/fr/wiki/" class="extiw" title="fr:">Français</a> &nbsp;•&nbsp; <a href="https://satisfactory.wiki.gg/ru/wiki/" class="extiw" title="ru:">Русский</a><br>
+                      <a href="/wiki/Category:Translation_projects" title="Category:Translation projects">other translation projects</a>
+                      </p>
                     </div>
                   </div>
                 </div>
