@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            font-family: 'Afacad', sans-serif;
+            min-height: 100vh;
+            align-items: center;
+        }
+        .temperature {
+            display: flex;
+            margin: 16px;
+            align-self: flex-end;
+            justify-self: flex-start;
+            flex-direction: column;
+            text-align: right;
+        }
+        .degrees {
+            font-size: 18px;
+            color: #212121
+        }
+        .city {
+            font-size: 12px;
+            color: #6E6CDF;
+        }
+        .main-bar {
+            display: flex;
+            text-align: center;
+            flex: 1;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            width: 100%;
+        }
+        .god-morning {
+            font-size: 22px;
+            color: #6E6CDF;
+        }
+        .time {
+            font-size: 48px;
+        }
+        .services{
+            display: flex;
+            gap: 8px;
+            width: 100%;
+            justify-content: center;
+        }
+        .service{
+            text-decoration: none;
+        }
+        .service img {
+            width: 44px;
+            height: 44px;
+            
+        }
+        .search-bar{
+            position: relative;
+            width: 100%;
+            max-width: min(356px, 90%);
+            
+        }
+        .search-bar input{
+            width: 100%;
+            height: 44px;
+            padding-left: 48px;
+            border: none;
+            background-image: url('search-bar.svg');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            outline: none;
+            font-size: 14px;
+        }
+        @media (max-width: 480px) {
+
+            .temperature{
+                position: absolute;
+                top: 16px;
+                right: 16px;
+                margin: 0;
+            }
+
+            .services {
+                position: static;
+                margin-top:0;
+                display: flex;
+                bottom: 24px;
+                justify-content: center;
+                gap: 8px;
+                width: 100%;
+            }
+
+            .search-bar{
+                margin-top: 120px;
+            }
+            .search-bar input {
+                background-image: url('search2.svg');
+                padding-left: 90px;
+            }
+
+            .services a:nth-child(n+6) {
+                display: none;
+            }
+
+            .service img {
+                width: 40px;
+                height: 40px;
+            }
+
+            .time-group {
+                margin-top: 0;
+            }
+
+            .time{
+                font-size: 40px;
+            }
+
+            .god-morning {
+                font-size: 18px;
+            }
+            
+            .main-bar{
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="temperature">
+        <h3 class="degrees">36°</h3>
+        <h3 class = "city">Ahmedabad</h3>
+    </div>
+    <div class = "main-bar">
+        <div class="time-group">
+            <h1 class = "time">
+                09:11:01
+            </h1>
+            <h3 class="god-morning">
+                Good Morning, Saad.
+            </h3>
+        </div>
+        <div class="search-bar">
+            <input id="search" type="search" placeholder="Search">
+        </div>
+        <div class="services">
+            <a href="https://youtube.com" target="_blank" class="service">
+                <img src="youtube.svg" alt="YouTube">
+            </a>
+            <a href="https://chat.openai.com" target="_blank" class="service">
+                    <img src="chatgpt.svg" alt="ChatGPT">
+            </a>
+            <a href="https://geeksforgeeks.com" target="_blank" class="service">
+                <img src="geeksforgeeks.svg" alt="Geeksforgeeks">
+            </a>
+            <a href="https://deepseek.com" target="_blank" class="service">
+                <img src="deepseek.svg" alt="Twitter">
+            </a>
+            <a href="https://github.com" target="_blank" class="service">
+                <img src="github.svg" alt="GitHub">
+            </a>
+            <a href="https://linkedin.com" target="_blank" class="service">
+                <img src="linkedin.svg" alt="LinkedIn">
+            </a>
+            <a href="#" class="service">
+                <img src="plus.svg" alt="Add">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
