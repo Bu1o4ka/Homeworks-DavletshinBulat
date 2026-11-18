@@ -1,0 +1,15 @@
+C:\Users\bulat\RiderProjects\ControlWork\ControlWork\bin\Debug\net10.0\ControlWork.exe
+C:\Users\bulat\RiderProjects\ControlWork\ControlWork\bin\Debug\net10.0\ControlWork.deps.json
+C:\Users\bulat\RiderProjects\ControlWork\ControlWork\bin\Debug\net10.0\ControlWork.runtimeconfig.json
+C:\Users\bulat\RiderProjects\ControlWork\ControlWork\bin\Debug\net10.0\ControlWork.dll
+C:\Users\bulat\RiderProjects\ControlWork\ControlWork\bin\Debug\net10.0\ControlWork.pdb
+C:\Users\bulat\RiderProjects\ControlWork\ControlWork\obj\Debug\net10.0\ControlWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bulat\RiderProjects\ControlWork\ControlWork\obj\Debug\net10.0\ControlWork.AssemblyInfoInputs.cache
+C:\Users\bulat\RiderProjects\ControlWork\ControlWork\obj\Debug\net10.0\ControlWork.AssemblyInfo.cs
+C:\Users\bulat\RiderProjects\ControlWork\ControlWork\obj\Debug\net10.0\ControlWork.csproj.CoreCompileInputs.cache
+C:\Users\bulat\RiderProjects\ControlWork\ControlWork\obj\Debug\net10.0\ControlWork.dll
+C:\Users\bulat\RiderProjects\ControlWork\ControlWork\obj\Debug\net10.0\refint\ControlWork.dll
+C:\Users\bulat\RiderProjects\ControlWork\ControlWork\obj\Debug\net10.0\ControlWork.pdb
+C:\Users\bulat\RiderProjects\ControlWork\ControlWork\obj\Debug\net10.0\ControlWork.genruntimeconfig.cache
+C:\Users\bulat\RiderProjects\ControlWork\ControlWork\obj\Debug\net10.0\ref\ControlWork.dll
+C:\Users\bulat\RiderProjects\ControlWork\ControlWork\bin\Debug\net10.0\settings.json

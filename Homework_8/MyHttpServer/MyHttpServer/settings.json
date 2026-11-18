@@ -1,0 +1,8 @@
+{
+  "Server": {
+    "Port": "9999",
+    "Host": "localhost",
+    "Path": ""
+  },
+  "ConnectionString": "Server=localhost,1433;Database=OrisDb;User Id=sa;Password=P@ssw0rd;TrustServerCertificate=True;"
+}
